@@ -1,0 +1,49 @@
+.editbox {
+  padding: 20px;
+  background-color: #5cdeff;
+  width: 100%;
+  margin: 20px;
+  border-radius: 10px;
+  align-items: center;
+  align-items: center;
+}
+
+.editbox li {
+  list-style: none;
+  margin: 10px;
+  display: inline;
+  align-items: center;
+  gap: 10px;
+}
+
+#symbol {
+  gap: 20px;
+  font-size: medium;
+  color: rgb(255, 70, 3);
+  background-color: aliceblue;
+}
+.editbox input {
+  gap: 20px;
+  padding: 10px;
+}
+
+.beditbox button {
+  gap: 20px;
+  background-color: #007bff;
+  color: rgb(215, 232, 35);
+  padding: 10px;
+  width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.game {
+  list-style: none;
+  margin: 10px;
+  display: inline;
+  align-items: center;
+  gap: 10px;
+  font-weight: 100;
+  width: 50px;
+  height: 50px;
+}

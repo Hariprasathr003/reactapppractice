@@ -1,0 +1,30 @@
+.cricketlist {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  background-color: #95eaaa;
+  justify-content: center;
+}
+
+.cricketlist img {
+  height: 100px;
+  width: 100px;
+}
+
+.cricketlist h1 {
+  font-family: sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  color: #95eaaa;
+  background-color: #888;
+}
+
+.cricketlist p {
+  font-size: small;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: rgb(232, 149, 108);
+  background-color: beige;
+}
