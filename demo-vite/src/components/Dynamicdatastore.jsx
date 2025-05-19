@@ -7,3 +7,4 @@ export default function Dynamicdatastore({ image, name, iplteam }) {
     </li>
   );
 }
+

@@ -2,7 +2,7 @@ import { Firstcomponent } from "./components/Firstcomponent.jsx";
 import "./App.css";
 import "./components/css/editbutton.css";
 import { Gameboard } from "./components/editgame/Gameboard.jsx";
-
+import { UseResfDemo } from "./components/UseRefDemo.jsx";
 import EditButton from "./components/editgame/EditButton.jsx";
 import { Cricketplayer } from "./components/Cricketplayer.jsx";
 import { Football } from "./components/Football.jsx";
@@ -25,16 +25,21 @@ function App() {
           <EditButton
             intialname="player1"
             Symbol="X"
-            isActive={clickBoard==="X"}
+            isActive={clickBoard === "X"}
           ></EditButton>
           <EditButton
             intialname="player2"
             Symbol="O"
-            isActive={clickBoard==="O"}
+            isActive={clickBoard === "O"}
           ></EditButton>
         </ul>
-        <Gameboard onSelectgameboard={handleClickboard} activePlayer={clickBoard}/>
+        <Gameboard
+          onSelectgameboard={handleClickboard}
+          activePlayer={clickBoard}
+        />
       </div>
+
+      <UseResfDemo />
     </>
   );
 }
