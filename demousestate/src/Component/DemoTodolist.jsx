@@ -56,15 +56,14 @@ export function DemoTodoList() {
         placeholder="Enter name"
       />
       <button onClick={addlist}> {isEditing ? "Update" : "Add"} </button>
-      <ul>
-        {list.map((val, index) => (
-          <li key={index}>
-            {val}
-            <button onClick={() => handleEdit(index)}>Edit</button>
-            <button onClick={() => handleDelete(index)}>Delete</button>
-          </li>
-        ))}
-      </ul>
+
+      {list.map((val, index) => (
+        <div key={index}>
+          {val}
+          <button onClick={() => handleEdit(index)}>Edit</button>
+          <button onClick={() => handleDelete(index)}>Delete</button>
+        </div>
+      ))}
     </>
   );
 }
