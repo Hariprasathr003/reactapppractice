@@ -1,0 +1,249 @@
+.countersection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  max-width: 300px;
+  margin: 10px auto;
+  font-family: Arial, sans-serif;
+}
+
+.countersection h1 {
+  font-size: 30px;
+  color: #333;
+}
+
+.countersection button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #0f76a7;
+  color: white;
+}
+
+.countersection button:hover {
+  background-color: #72e8f3;
+}
+
+.cardsection {
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.cardsection h1 {
+  text-align: center;
+  color: #333;
+}
+
+.cardsection h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 12px 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.cardsection button {
+  padding: 6px 12px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cardsection button:hover {
+  background-color: #e8d9d9;
+}
+
+.cardsection .deleteallbutton {
+  background-color: #e53935;
+  height: auto;
+  width: 50%;
+  gap: 10px;
+}
+
+.cardsection .reset {
+  background-color: #0f76a7;
+  height: auto;
+  width: 50%;
+}
+
+/* //fetchdata css// */
+
+.fetchdata {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.fetchdata h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.fetchdata ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.fetchdata li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.fetchdata h1,
+.fetchdata h3,
+.fetchdata h4,
+.fetchdata h5 {
+  margin: 5px 0;
+  color: #555;
+}
+
+.miniProjectSection {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+
+.miniProjectSection h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.miniProjectSection form {
+  display: flex;
+  flex-direction: column;
+}
+
+.miniProjectSection label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.miniProjectSection input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.miniProjectSection button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.miniProjectSection button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.datasection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  max-width: 300px;
+  margin: 10px auto;
+  font-family: Arial, sans-serif;
+}
+
+.datasection h1 {
+  font-size: 30px;
+  color: #333;
+}
+
+.datasection button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #0f76a7;
+  color: white;
+}
+
+.datasection button:hover {
+  background-color: #72e8f3;
+}
+
+.datasection {
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.datasection h1 {
+  text-align: center;
+  color: #333;
+}
+
+.datasection h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 12px 16px;
+  margin: 8px 0;
+  border-radius: 8px;
+}
+
+.datasection button {
+  padding: 6px 12px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.datasection button:hover {
+  background-color: #e8d9d9;
+}
+
+.datasection .deleteallbutton {
+  background-color: #e53935;
+  height: auto;
+  width: 50%;
+  gap: 10px;
+}
+
+
