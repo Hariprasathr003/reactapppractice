@@ -1,0 +1,74 @@
+.DemoCardSection {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: aqua;
+  border-radius: 10px;
+  margin: 10px auto;
+  font-family: sans-serif;
+}
+.DemoCardSection h1 {
+  text-align: center;
+  color: rgb(255, 138, 13);
+}
+.DemoCardSection form {
+  display: flex;
+  flex-direction: column;
+}
+
+.DemoCardSection label {
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: medium;
+  color: #555;
+}
+
+.DemoCardSection input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.DemoCardSection button {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  background-color: rgb(173, 214, 243);
+}
+
+.dataStoreSection {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.dataStoreSection ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.dataStoreSection li {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.dataStoreSection button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dataStoreSection button:hover {
+  background-color: #e60000;
+}

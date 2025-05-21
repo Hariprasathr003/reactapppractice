@@ -166,9 +166,6 @@
   background-color: #0056b3;
 }
 
-
-
-
 .datasection {
   display: flex;
   flex-direction: column;
@@ -245,5 +242,3 @@
   width: 50%;
   gap: 10px;
 }
-
-

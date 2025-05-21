@@ -1,9 +1,14 @@
-import "./App.css";
+// import "./App.css";
 import Counter from "./components/useStatehook/Counter.jsx";
-import Card from "./components/useStatehook/Card.jsx";
+import Card from "./components/demoproject/Card.jsx";
 import Fetchuser from "./components/useEffecthook/Fetchuser.jsx";
 import Home from "./components/miniproject/Home.jsx";
 import Loginform from "./components/useRefhook/Loginform.jsx";
+import Withoutcontext from "./components/useContexthook/withoutContext/Withoutcontext.jsx";
+import StudentDetails from "./components/useContexthook/withContext/StudentDetails.jsx";
+import CountReduce from "./components/useReducer/CountReduce.jsx";
+import GlobalContext from "./components/useContexthook/GlobalContext.jsx";
+import { ChildContext } from "./components/useContexthook/GlobalContext.jsx";
 function App() {
   return (
     <>
@@ -33,8 +38,17 @@ function App() {
         </h1>
         <Fetchuser />
       </div> */}
+      {/* <CountReduce /> */}
 
-      <Loginform />
+      {/* <Loginform /> */}
+      {/* <Withoutcontext /> */}
+      {/* <StudentDetails /> */}
+      {/* 
+      <ParentComponent /> */}
+
+      {/* <GlobalContext /> */}
+
+      <Card />
     </>
   );
 }
