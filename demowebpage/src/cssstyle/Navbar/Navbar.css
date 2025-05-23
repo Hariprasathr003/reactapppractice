@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+}
+
+.navbar div {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar ul a:hover {
+  color: #00bcd4;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar .loginbtn {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.navbar .auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar .auth-button:hover {
+  background-color: #0097a7;
+}

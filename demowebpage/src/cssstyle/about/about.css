@@ -1,0 +1,34 @@
+.fetchdata {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+}
+
+.fetchdata h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.fetchdata ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.fetchdata li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.fetchdata h1,
+.fetchdata h3,
+.fetchdata h4,
+.fetchdata h5 {
+  margin: 5px 0;
+  color: #555;
+}

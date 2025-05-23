@@ -1,0 +1,108 @@
+.contactsection {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  color: #3e95f2;
+}
+.contactsection h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.contactsection label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.contactsection input,
+.contactsection textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.contactsection textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.contactsection button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contactsection button:hover {
+  background-color: #0056b3;
+}
+
+.dataStoreSection {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.dataStoreSection ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.dataStoreSection li {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.dataStoreSection button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin-top: 10px;
+}
+
+.DeleteAllContactSection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.DeleteAllContactSection {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 8px 16px;
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
