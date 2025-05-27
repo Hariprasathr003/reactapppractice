@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../demoproject/demostyle.css";
 import Datastore from "./Datastore";
-export default function Card() {
+export default function CardSet() {
   const [list, setList] = useState("");
   const [age, setAge] = useState(0);
   const [mobileNumber, setMobileNumber] = useState(0);
